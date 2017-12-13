@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:gravity="right|bottom"
+    android:orientation="horizontal"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/zoomheader_fixedview_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="this is a sheep."
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/zoomheader_fixedview_image"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="12dp"
+        android:padding="3.5dp"
+        android:src="@mipmap/sheep" />
+
+</LinearLayout>

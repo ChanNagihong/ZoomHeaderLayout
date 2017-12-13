@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ZoomHeaderLayout">
+        <attr name="zhl_zoomHeaderView" format="reference" />
+        <attr name="zhl_fixedHeaderView" format="reference" />
+        <attr name="zhl_parallax" format="boolean" />
+    </declare-styleable>
+</resources>
