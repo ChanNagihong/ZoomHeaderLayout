@@ -3,6 +3,10 @@
 ![](http://orqt8ndmu.bkt.clouddn.com/device-2017-12-16-211315.gif)  
 ## Support ListView and RecyclerView  
 
+```Gradle  
+compile 'com.nagihong:zoomheaderlayout:1.0.1'
+```  
+
 ### Usage for ListView  
 #### ListActivity  
 ```Java
@@ -82,6 +86,7 @@ public class RecyclerAdapter extends ZoomHeaderRecyclerAdapter {
     }
 }
 ```
+
 
 
 
